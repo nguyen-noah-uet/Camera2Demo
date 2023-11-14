@@ -85,9 +85,12 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 override fun onSurfaceTextureUpdated(p0: SurfaceTexture) {
+                    // Frame ở dạng bitmap
                     bitmap = textureView.bitmap!!
-                    var focusDistance = getFocusDistance()!!
-                    Log.d(TAG, "focus distance: $focusDistance")
+
+                    // Thực hiện xử lý ảnh
+                    // ...
+
                 }
             }
         } catch (e: Exception) {
